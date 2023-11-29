@@ -5,12 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store Check Out(sco)</title>
-    <link href = "sco.css" rel = "stylesheet">
     <script src = "sco.js" defer></script>
+    <link rel="stylesheet" href="sco.css">
 </head>
 <body>
-    <div>
-    <h1>Store Check Out</h1> 
+    <div class="maindiv">
+        <h1>Cashier Check Out</h1> 
+        <p class="scan">Scan Barcode:</p>
+        <input type="text" id="ScanBarcode" placeholder="Scan Barcode Here...">
+        <br>
+        <p class="amount">Quantity:</p>
+           <input type="number" id="Quantity">
+        <button id="addtocart">Add To Cart</button>
+        <div class="cart" id="cartt">
+            <h1>Cart</h1>
+          <div class="underline">
+            <h4>Item</h4>
+            <h4>Price</h4>
+            <h4>Quantity</h4>
+          </div>
+        </div>
+        <div id="produuctsdiv">
+        </div>
+        <p id="total">Total: $0</p>
+        <button id="checkout">Checkout</button>
+          <div id="tax" class="tax">
+          </div>
     </div>
 </body>
 </html>

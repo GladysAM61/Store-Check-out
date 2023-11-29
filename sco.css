@@ -1,4 +1,51 @@
-div{
-    border:1.5% solid black;
-    border-radius: 2% ;
+.maindiv{
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 60vh;
+    margin: 100px 30px 50px 30px;
+}
+input {
+    margin: 1.3% 0% 0% 0%;
+    width: 40%;
+    font-size: 1.2vh;
+
+}
+button{
+    width: 10%;
+    font-size: 1.2vh;   
+    margin: 2% 100% 2% 3%;
+    background-color: rgb(255, 99, 200);
+    color: white;
+    border-radius: 8.5%;
+}
+p{
+    display: inline-block;
+    margin : 0% 0% 0% 4%
+}
+
+h1{
+    text-align: center;
+}
+.cart{
+    border-top: 2px solid;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-radius: 0px;
+}
+.underline{
+   text-decoration: underline;
+   display:flex;
+   justify-content: space-around;
+}
+.itemDiv{
+    border: black solid 1.5px;
+    margin: 1.3%;
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+.tax{
+    margin: 2% 0% 0% 4%;
 }
